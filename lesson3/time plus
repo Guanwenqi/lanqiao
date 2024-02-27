@@ -1,0 +1,16 @@
+# import datetime
+# start=datetime.date(2000,1,1)
+# end=datetime.date(2020,10,1)
+# days=datetime.timedelta(days=1)
+# ans=0
+# while start<=end:
+#     if start.weekday()==0 or start.day==1:
+#         ans+=2
+#     else:
+#         ans+=1
+#     start+=days
+# print(ans)
+from decimal import Decimal
+print(round(Decimal("5.225"),2))
+print('{:.2f}'.format(5.225))
+# 若保留位后一位为5，但再之后无其他数，则不进位
