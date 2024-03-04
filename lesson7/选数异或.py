@@ -15,6 +15,7 @@ print(dp[n][x])
 # dp=[[0]*64 for i in range(n+1)]
 # dp[1][0]=1
 # dp[1][a[1]]=1
+# 与方法一等价，实际上这里是法一第一步推出来的边界条件
 # for i in range(2,n+1):
 #     for j in range(64):
 #         dp[i][j]=(dp[i-1][j]+dp[i-1][j^a[i]])%mod
