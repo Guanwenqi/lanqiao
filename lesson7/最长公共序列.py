@@ -10,7 +10,6 @@ for i in range(1,n+1):
             dp[i][j]=max(dp[i-1][j],dp[i][j-1])
 print(dp[n][m])
 
-
 # 找出最长公共子序列的过程是回溯，由于路径不同，找出序列可能不同，但长度恒定
 # ans=[]
 # x,y=n,m
